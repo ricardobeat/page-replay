@@ -1,6 +1,6 @@
 {
   "name": "page-replay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Replay page from local cache, honouring load behaviour from multiple domains",
   "main": "replay.js",
   "scripts": {
