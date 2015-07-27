@@ -1,6 +1,6 @@
 {
   "name": "page-replay",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Replay page from local cache, honouring load behaviour from multiple domains",
   "main": "replay.js",
   "scripts": {
@@ -14,5 +14,12 @@
     "mkdirp": "^0.5.1",
     "request": "^2.60.0",
     "underscore": "^1.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ricardobeat/page-replay.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ricardobeat/page-replay/issues"
   }
 }
