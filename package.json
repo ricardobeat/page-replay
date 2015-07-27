@@ -1,0 +1,18 @@
+{
+  "name": "page-replay",
+  "version": "1.0.0",
+  "description": "Replay page load including subresources and multiple domains",
+  "main": "replay.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ricardo Tomasi <ricardobeat@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "mime": "^1.3.4",
+    "mkdirp": "^0.5.1",
+    "request": "^2.60.0",
+    "underscore": "^1.8.3"
+  }
+}
