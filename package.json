@@ -1,7 +1,7 @@
 {
   "name": "page-replay",
   "version": "1.0.0",
-  "description": "Replay page load including subresources and multiple domains",
+  "description": "Replay page from local cache, honouring load behaviour from multiple domains",
   "main": "replay.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
