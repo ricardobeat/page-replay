@@ -21,6 +21,7 @@ program
     .option('-p, --port <port>', 'Port for local server', 7003)
     .option('-d, --domains <domains>', 'List of domains to proxy', arglist)
     .option('-r, --proxy-port <port>', 'Starting port range for local proxies', 8150)
+    .option('-l, --delay <delay>', 'Introduce delay to asset loading', 2000)
     .action(function (url) {
         program.url = url
     })
@@ -58,7 +59,7 @@ function serveFromCache(requestURL, cachedPath, res) {
         res.writeHead(200, { 'Content-Type': mime.lookup(cachedPath) })
         setTimeout(function(){
             fs.createReadStream(cachedPath).pipe(res)
-        }, 2000)
+        }, program.delay)
         return true
     }
 }
